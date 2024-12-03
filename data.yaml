@@ -1,0 +1,12 @@
+train: datasets/images/train
+val: datasets/images/val
+test: datasets/images/test  # Optional
+
+nc: 7  # Number of classes
+names: ["longitudinal crack",
+    "transverse crack",
+    "alligator crack",
+    "pothole",
+    "block crack",
+    "repair",
+    "other corruption"]  # List of class names
